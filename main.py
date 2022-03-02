@@ -47,7 +47,8 @@ class Window(QtWidgets.QMainWindow):
             pass
 
         pyperclip.copy(self.st)
-        QtWidgets.QMessageBox.information(self, 'Сообщение', f"Пароль {self.st} скопирован")
+        QtWidgets.QMessageBox.information(self, 'Сообщение', f"Пароль {self.st} скопирован и "
+                                                             f"добавлен в файл")
 
 
 if __name__ == '__main__':

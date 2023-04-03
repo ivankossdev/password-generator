@@ -4,6 +4,10 @@ import random
 import pyperclip
 # pyuic5 Pas.ui -o des.py
 # pyinstaller -F -w main.py
+
+
+#/home/ivan/PycharmProjects/password-generator/venv/bin/python3 /home/ivan/PycharmProjects/password-generator/main.py
+
 random.seed()
 
 
